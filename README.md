@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOVE ERIKA</title>
+    <title>Mi página robótica con side</title>
     <style>
         /* Estilos CSS robóticos */
         body {
@@ -114,12 +114,12 @@
                     Con todo mi amor,
                     
                     Jhon A. Pérez Pérez
-                    </p>
+                </p>
             </section>
             <section>
                 <h3>Sección 2</h3>
-                <iframe width="560" height="315" src="https://www.youtube.com/watch?v=kgUVq-ICt_Y" frameborder="0" allowfullscreen style="max-width: 100%;"></iframe>
-                <p>youtube</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kgUVq-ICt_Y" frameborder="0" allowfullscreen style="max-width: 100%;"></iframe>
+                <p>Este es el video que quería compartir contigo: <a href="https://www.youtube.com/watch?v=kgUVq-ICt_Y">https://www.youtube.com/watch?v=kgUVq-ICt_Y</a></p>
             </section>
         </article>
         <aside>
@@ -130,3 +130,4 @@
     </main>
 </body>
 </html>
+
