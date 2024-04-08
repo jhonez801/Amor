@@ -123,7 +123,7 @@
             </section>
         </article>
         <aside>
-            <h2>Te amo</h2>
+            <h2>Te amo Muñeca</h2>
             <img src="amor.jpeg" alt="Imagen" style="max-width: 100%;">
             <p>Eres el ser más especial en mi vida... Te quiero para siempre a mi lado.</p>
         </aside>
