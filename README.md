@@ -1,14 +1,14 @@
-
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi página robótica con side</title>
+    <title>Mi página romántica con side</title>
     <style>
-        /* Estilos CSS robóticos */
+        /* Estilos CSS románticos */
         body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #f0f0f0;
+            font-family: 'Arial', sans-serif;
+            background-color: #ffcccc; /* Color de fondo rosa claro */
             margin: 0;
             padding: 0;
             display: flex;
@@ -16,13 +16,13 @@
             align-items: center;
         }
         header {
-            background-color: #333;
+            background-color: #ff3366; /* Color de fondo rosa oscuro */
             color: white;
             padding: 20px;
             text-align: center;
             font-size: 24px;
             font-weight: bold;
-            border-bottom: 4px solid #555;
+            border-bottom: 4px solid #cc0033; /* Borde inferior rojo */
             width: 100%;
         }
         main {
@@ -31,12 +31,13 @@
             width: 100%;
         }
         nav {
-            background-color: #555;
+            background-color: #cc0033; /* Color de fondo rojo oscuro */
             color: white;
             padding: 10px;
             text-align: center;
             width: 20%;
             margin-right: 20px;
+            border-radius: 10px; /* Bordes redondeados */
         }
         nav ul {
             list-style-type: none;
@@ -56,15 +57,17 @@
         article {
             margin: 20px;
             padding: 20px;
-            background-color: #fff;
-            border: 1px solid #ccc;
+            background-color: #fff; /* Color de fondo blanco */
+            border: 1px solid #cc0033; /* Borde rojo */
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             width: 60%;
+            border-radius: 10px; /* Bordes redondeados */
         }
         aside {
-            background-color: #ccc;
+            background-color: #ffe6ee; /* Color de fondo rosa claro */
             padding: 20px;
             width: 20%;
+            border-radius: 10px; /* Bordes redondeados */
         }
         section {
             margin-bottom: 20px;
@@ -72,14 +75,24 @@
         h2 {
             font-size: 22px;
             margin-bottom: 10px;
+            color: #cc0033; /* Color de texto rojo */
         }
         h3 {
             font-size: 20px;
             margin-bottom: 5px;
+            color: #cc0033; /* Color de texto rojo */
         }
         p {
             font-size: 16px;
             line-height: 1.5;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px; /* Bordes redondeados */
+        }
+        iframe {
+            max-width: 100%;
+            border-radius: 10px; /* Bordes redondeados */
         }
     </style>
 </head>
@@ -130,4 +143,3 @@
     </main>
 </body>
 </html>
-
