@@ -98,7 +98,7 @@
         <article>
             <h2>Artículo principal</h2>
             <section>
-                <h3>Sección 1</h3>
+                <h3>Carta</h3>
                 <p>Amor de mi vida,
 
                     Es difícil encontrar las palabras adecuadas para expresar lo que siento por ti. Desde el momento en que entraste en mi vida, todo cambió. Tú has iluminado mi mundo de una manera que nunca imaginé posible. Quiero tomarme un momento para decirte lo mucho que significas para mí.
@@ -117,7 +117,7 @@
                 </p>
             </section>
             <section>
-                <h3>Sección 2</h3>
+                <h3>Dedicación</h3>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/kgUVq-ICt_Y" frameborder="0" allowfullscreen style="max-width: 100%;"></iframe>
                 <p>Este es el video que quería compartir contigo: <a href="https://www.youtube.com/watch?v=kgUVq-ICt_Y">https://www.youtube.com/watch?v=kgUVq-ICt_Y</a></p>
             </section>
