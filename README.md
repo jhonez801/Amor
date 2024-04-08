@@ -1,99 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multiple Input Fields by Jhon Pérez</title>
+    <title>LOVE ERIKA</title>
     <style>
+        /* Estilos CSS robóticos */
         body {
-            font-family: 'Arial', sans-serif;
-            font-size: 16px;
-            margin: 20px;
-            background-color: #f4f4f4;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
-
-        #container {
-            max-width: 600px;
-            margin: 0 auto;
-            background-color: #fff;
+        header {
+            background-color: #333;
+            color: white;
             padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        label {
-            display: block;
-            margin-bottom: 8px;
-            color: #333;
-        }
-
-        input {
-            width: 100%;
-            padding: 10px;
-            font-size: 16px;
-            margin-bottom: 16px;
-            box-sizing: border-box;
-        }
-
-        #saveButton {
-            background-color: #4caf50;
-            color: #fff;
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            border: none;
-            border-radius: 4px;
-        }
-
-        #result {
-            margin-top: 20px;
-            font-weight: bold;
-            color: #333;
-        }
-
-        #author {
             text-align: center;
-            margin-top: 20px;
-            font-style: italic;
-            color: #666;
+            font-size: 24px;
+            font-weight: bold;
+            border-bottom: 4px solid #555;
+            width: 100%;
+        }
+        main {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        nav {
+            background-color: #555;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            width: 20%;
+            margin-right: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: block;
+            margin: 0 0 10px 0;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            display: block;
+            padding: 5px;
+        }
+        article {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 60%;
+        }
+        aside {
+            background-color: #ccc;
+            padding: 20px;
+            width: 20%;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+        h3 {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>¡Te amo ERIKA ALEXANDRA!</h1>
+    </header>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h2>Artículo principal</h2>
+            <section>
+                <h3>Sección 1</h3>
+                <p>Amor de mi vida,
 
-    <div id="container">
-        <label for="userInput1">Enter Information 1:</label>
-        <input type="text" id="userInput1" name="userInput1" placeholder="Type here...">
-
-        <label for="userInput2">Enter Information 2:</label>
-        <input type="text" id="userInput2" name="userInput2" placeholder="Type here...">
-
-        <label for="userInput3">Enter Information 3:</label>
-        <input type="text" id="userInput3" name="userInput3" placeholder="Type here...">
-
-        <button id="saveButton" onclick="saveInformation()">Save Information</button>
-
-        <div id="result"></div>
-
-        <div id="author">Document by Jhon Pérez</div>
-
-        <!-- Replace the placeholder URL with the actual URL of your image -->
-        <img src="C:\Users\jhone\pagina web\manito.JPG" alt="Placeholder Image">
-    </div>
-
-    <script>
-        function saveInformation() {
-            var userInput1 = document.getElementById("userInput1").value;
-            var userInput2 = document.getElementById("userInput2").value;
-            var userInput3 = document.getElementById("userInput3").value;
-
-            var informationArray = [userInput1, userInput2, userInput3];
-            var result = "Information Saved: " + informationArray.join(", ");
-            
-            // Muestra el resultado en el área designada
-            document.getElementById("result").innerText = result;
-        }
-    </script>
-
+                    Es difícil encontrar las palabras adecuadas para expresar lo que siento por ti. Desde el momento en que entraste en mi vida, todo cambió. Tú has iluminado mi mundo de una manera que nunca imaginé posible. Quiero tomarme un momento para decirte lo mucho que significas para mí.
+                    
+                    Cada día a tu lado es un regalo del cielo. Tu presencia llena mi corazón de alegría y mi alma de calidez. Eres esa luz brillante que guía mi camino en los días oscuros y la brisa suave que me reconforta en los momentos de tempestad. Tu amor me envuelve como un abrazo cálido y me hace sentir seguro, protegido y amado.
+                    
+                    Lo que más admiro de ti es tu capacidad para ver lo mejor en mí, incluso cuando yo mismo dudo. Tú me haces sentir especial de una manera que nadie más ha logrado hacerlo. Tus palabras de aliento y apoyo son como un bálsamo para mi alma, levantándome cuando estoy caído y dándome fuerzas para seguir adelante.
+                    
+                    Tus acciones hablan más que mil palabras. Cada gesto de amor y amabilidad que haces hacia mí me recuerda lo afortunado que soy de tenerte en mi vida. Tú me haces sentir importante, valorado y apreciado en una forma que nunca antes había experimentado. Tu amor incondicional es el regalo más preciado que he recibido, y prometo cuidarlo y protegerlo siempre.
+                    
+                    En resumen, tú eres mi roca, mi inspiración, mi razón para sonreír cada día. Gracias por ser tú, por ser tan maravilloso y por amarme de una manera que me hace sentir completo. Te amo más de lo que las palabras pueden expresar, y siempre lo haré.
+                    
+                    Con todo mi amor,
+                    
+                    Jhon A. Pérez Pérez
+                    </p>
+            </section>
+            <section>
+                <h3>Sección 2</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/watch?v=kgUVq-ICt_Y" frameborder="0" allowfullscreen style="max-width: 100%;"></iframe>
+                <p>youtube</p>
+            </section>
+        </article>
+        <aside>
+            <h2>Te amo</h2>
+            <img src="amor.jpeg" alt="Imagen" style="max-width: 100%;">
+            <p>Eres el ser más especial en mi vida... Te quiero para siempre a mi lado.</p>
+        </aside>
+    </main>
 </body>
 </html>
